@@ -1,0 +1,46 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.weiktonplaceint.game">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-feature android:glEsVersion="0x00020000"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:isGame="true"
+        android:logo="@drawable/ic_launcher"
+        android:largeHeap="true">
+        <provider android:authorities="com.weiktonplaceint.game.provider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
+        </provider>
+        <activity android:screenOrientation="landscape" android:name="com.weiktonplaceint.game.gui.ScreenActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"></activity>
+        <activity android:screenOrientation="portrait" android:name="com.weiktonplaceint.game.launcher.HelloActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"></activity>
+        <activity android:screenOrientation="portrait" android:name="com.weiktonplaceint.game.launcher.DownloadActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"></activity>
+        <activity android:screenOrientation="portrait" android:name="com.weiktonplaceint.game.launcher.MainActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"></activity>
+        <activity android:screenOrientation="portrait" android:name="com.weiktonplaceint.game.launcher.SettingsActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"></activity>
+        <activity android:screenOrientation="portrait" android:name="com.weiktonplaceint.game.launcher.ForumActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"></activity>
+        <activity android:screenOrientation="portrait" android:label="@string/app_name" android:name="com.weiktonplaceint.game.launcher.SplashActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"></activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.weiktonplaceint.game.core.GTASA" android:screenOrientation="landscape" android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:screenOrientation="landscape" android:name="com.weiktonplaceint.game.GTASA" android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"></activity>
+        <meta-data android:name="android.max_aspect" android:value="2.1"/>
+    </application>
+
+</manifest>

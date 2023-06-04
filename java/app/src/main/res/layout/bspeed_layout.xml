@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:custom="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@id/speedometer"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@id/constraintLayout"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="25dp"
+		custom:layout_constraintBottom_toBottomOf="parent"
+		custom:layout_constraintStart_toEndOf="@+id/imageView10"
+		custom:layout_constraintTop_toTopOf="@+id/imageView5">
+
+		<LinearLayout
+			android:id="@id/linearLayout"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="@dimen/_3sdp"
+			custom:layout_constraintBottom_toBottomOf="parent"
+			custom:layout_constraintEnd_toEndOf="parent"
+			custom:layout_constraintStart_toStartOf="parent">
+
+			<ImageView
+				android:id="@id/speed_lock_ico"
+				android:layout_width="16.0dip"
+				android:layout_height="fill_parent"
+				android:src="@drawable/speedo_doors" />
+
+			<Space
+				android:layout_width="@dimen/_4sdp"
+				android:layout_height="wrap_content" />
+
+			<ImageView
+				android:id="@id/speed_engine_ico"
+				android:layout_width="16.0dip"
+				android:layout_height="12.0dip"
+				android:src="@drawable/speedo_engine" />
+		</LinearLayout>
+	</androidx.constraintlayout.widget.ConstraintLayout>
+
+	<ImageView
+		android:id="@id/imageView11"
+		android:layout_width="15dp"
+		android:layout_height="12dp"
+		android:layout_marginTop="15dp"
+		android:src="@drawable/menu_exchange"
+		custom:layout_constraintStart_toStartOf="@+id/speed_car_hp_text"
+		custom:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+	<TextView
+		android:id="@id/speed_fuel_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="6dp"
+		android:fontFamily="@font/montserrat_bold"
+		android:text="150"
+		android:textColor="#ffffff"
+		android:textSize="@dimen/_6sdp"
+		custom:layout_constraintBottom_toBottomOf="@+id/imageView11"
+		custom:layout_constraintStart_toEndOf="@+id/imageView11" />
+
+	<TextView
+		android:id="@id/textView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:fontFamily="@font/montserrat_bold"
+		android:text="150"
+		android:textColor="#ffffff"
+		android:textSize="@dimen/_6sdp"
+		custom:layout_constraintStart_toEndOf="@+id/imageView11"
+		custom:layout_constraintTop_toBottomOf="@+id/speed_fuel_text" />
+
+	<ImageView
+		android:layout_width="@dimen/_5sdp"
+		android:layout_height="@dimen/_5sdp"
+		android:layout_marginStart="2dp"
+		android:src="@drawable/speedo_l"
+		custom:layout_constraintBottom_toBottomOf="@+id/textView"
+		custom:layout_constraintStart_toEndOf="@+id/speed_fuel_text"
+		custom:layout_constraintTop_toTopOf="@+id/speed_fuel_text" />
+
+	<ImageView
+		android:id="@id/imageView13"
+		android:layout_width="15dp"
+		android:layout_height="12dp"
+		android:layout_marginTop="5dp"
+		android:layout_marginEnd="25dp"
+		android:src="@drawable/speedo_health"
+		custom:layout_constraintEnd_toStartOf="@+id/imageView10"
+		custom:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+	<TextView
+		android:id="@id/speed_car_hp_text"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="2dp"
+		android:fontFamily="@font/montserrat_bold"
+		android:text="100%"
+		android:textColor="#ffffff"
+		android:textSize="@dimen/_6sdp"
+		custom:layout_constraintBottom_toBottomOf="@+id/imageView13"
+		custom:layout_constraintEnd_toStartOf="@+id/imageView13"
+		custom:layout_constraintTop_toTopOf="@+id/imageView13" />
+
+	<ImageView
+		android:id="@id/imageView5"
+		android:layout_width="match_parent"
+		android:layout_height="54dp"
+		android:background="@drawable/bg_bac0"
+		custom:layout_constraintBottom_toBottomOf="parent"
+		custom:layout_constraintEnd_toEndOf="parent"
+		custom:layout_constraintHorizontal_bias="0.0"
+		custom:layout_constraintStart_toStartOf="parent" />
+
+	<TextView
+		android:id="@id/speed_text"
+		android:layout_width="42dp"
+		android:layout_height="24dp"
+		android:fontFamily="@font/muller_medium"
+		android:gravity="center"
+		android:text="000"
+		android:textColor="#E1FFFFFF"
+		android:textSize="@dimen/_15sdp"
+		android:textStyle="bold"
+		custom:layout_constraintEnd_toEndOf="@+id/imageView5"
+		custom:layout_constraintStart_toStartOf="@+id/imageView5"
+		custom:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+	<ImageView
+		android:id="@id/imageView10"
+		android:layout_width="@dimen/_18sdp"
+		android:layout_height="@dimen/_8sdp"
+		android:src="@drawable/speedo_h"
+		custom:layout_constraintEnd_toEndOf="@+id/speed_text"
+		custom:layout_constraintStart_toStartOf="@+id/speed_text"
+		custom:layout_constraintTop_toBottomOf="@+id/speed_text" />
+
+	<TextView
+		android:id="@id/textView2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:fontFamily="@font/montserrat_bold"
+		android:text="000002"
+		android:textColor="#ffffff"
+		android:textSize="@dimen/_6sdp"
+		custom:layout_constraintEnd_toEndOf="@+id/imageView10"
+		custom:layout_constraintStart_toStartOf="@+id/imageView10"
+		custom:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+	<ImageView
+		android:layout_width="8dp"
+		android:layout_height="9dp"
+		android:src="@drawable/speedo_km"
+		custom:layout_constraintBottom_toBottomOf="@+id/textView2"
+		custom:layout_constraintStart_toEndOf="@+id/textView2"
+		custom:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

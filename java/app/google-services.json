@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "92403463118",
+    "firebase_url": "https://santrope-63167.firebaseio.com",
+    "project_id": "santrope-63167",
+    "storage_bucket": "santrope-63167.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92403463118:android:eeffc68749ce40a874719f",
+        "android_client_info": {
+          "package_name": "com.realrussia.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92403463118-rie9b61ju8d06u023o011otvlur0qt8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0KoaaDbg35vGKsFE5bHvwu_JheIZ4Dv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92403463118-rie9b61ju8d06u023o011otvlur0qt8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

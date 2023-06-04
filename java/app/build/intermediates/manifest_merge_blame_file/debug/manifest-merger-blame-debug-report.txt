@@ -1,0 +1,218 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.weiktonplaceint.game"
+4    android:versionCode="46"
+5    android:versionName="release" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WAKE_LOCK" />
+11-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:4:5-67
+11-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:4:22-65
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:5:5-75
+12-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:5:22-73
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:6:5-80
+13-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:6:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:7:5-79
+14-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:7:22-77
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:8:5-66
+15-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:8:22-64
+16    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+16-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:9:5-82
+16-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:9:22-80
+17    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+17-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:10:5-81
+17-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:10:22-79
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:11:5-65
+18-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:11:22-63
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:12:5-78
+19-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:12:22-76
+20    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+20-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:13:5-72
+20-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:13:22-70
+21    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+21-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:14:5-70
+21-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:14:22-68
+22    <uses-permission android:name="android.permission.BLUETOOTH" />
+22-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:15:5-67
+22-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:15:22-65
+23    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+23-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:16:5-70
+23-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:16:22-68
+24
+25    <uses-feature android:glEsVersion="0x00020000" />
+25-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:17:5-53
+25-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:17:19-51
+26    <uses-feature
+26-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:18:5-89
+27        android:name="android.hardware.touchscreen"
+27-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:18:19-62
+28        android:required="false" />
+28-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:18:63-87
+29
+30    <!-- To allow starting foreground services on Android P+ - https://developer.android.com/preview/behavior-changes#fg-svc -->
+31    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+31-->[com.liulishuo.filedownloader:library:1.7.7] C:\Users\user\.gradle\caches\transforms-2\files-2.1\55897a74546a41ceeb33a3bbf616e510\jetified-library-1.7.7\AndroidManifest.xml:9:5-77
+31-->[com.liulishuo.filedownloader:library:1.7.7] C:\Users\user\.gradle\caches\transforms-2\files-2.1\55897a74546a41ceeb33a3bbf616e510\jetified-library-1.7.7\AndroidManifest.xml:9:22-74
+32
+33    <application
+33-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:20:5-44:19
+34        android:allowBackup="true"
+34-->[com.dinuscxj:circleprogressbar:1.3.6] C:\Users\user\.gradle\caches\transforms-2\files-2.1\0aa841614c2c0aef64d2b28bfa6a52bb\jetified-circleprogressbar-1.3.6\AndroidManifest.xml:12:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.3.1] C:\Users\user\.gradle\caches\transforms-2\files-2.1\980630e158f38ced2d00e440ae193d30\core-1.3.1\AndroidManifest.xml:24:18-86
+36        android:debuggable="true"
+37        android:icon="@drawable/ic_launcher"
+37-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:21:9-45
+38        android:isGame="true"
+38-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:23:9-30
+39        android:label="@string/app_name"
+39-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:22:9-41
+40        android:largeHeap="true"
+40-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:25:9-33
+41        android:logo="@drawable/ic_launcher"
+41-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:24:9-45
+42        android:supportsRtl="true"
+42-->[com.github.smarteist:autoimageslider:1.4.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\2f89ad6705c1bf39e094e6090d0e2788\jetified-autoimageslider-1.4.0\AndroidManifest.xml:14:9-35
+43        android:testOnly="true" >
+44        <provider
+44-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:26:9-28:20
+45            android:name="androidx.core.content.FileProvider"
+45-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:26:135-184
+46            android:authorities="com.weiktonplaceint.game.provider"
+46-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:26:19-74
+47            android:exported="false"
+47-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:26:75-99
+48            android:grantUriPermissions="true" >
+48-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:26:100-134
+49            <meta-data
+49-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:27:13-115
+50                android:name="android.support.FILE_PROVIDER_PATHS"
+50-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:27:24-74
+51                android:resource="@xml/provider_paths" />
+51-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:27:75-113
+52        </provider>
+53
+54        <activity
+54-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:29:9-195
+55            android:name="com.weiktonplaceint.game.gui.ScreenActivity"
+55-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:29:57-115
+56            android:screenOrientation="landscape"
+56-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:29:19-56
+57            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+57-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:29:116-183
+58        <activity
+58-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:30:9-198
+59            android:name="com.weiktonplaceint.game.launcher.HelloActivity"
+59-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:30:56-118
+60            android:screenOrientation="portrait"
+60-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:30:19-55
+61            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+61-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:30:119-186
+62        <activity
+62-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:31:9-201
+63            android:name="com.weiktonplaceint.game.launcher.DownloadActivity"
+63-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:31:56-121
+64            android:screenOrientation="portrait"
+64-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:31:19-55
+65            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+65-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:31:122-189
+66        <activity
+66-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:32:9-197
+67            android:name="com.weiktonplaceint.game.launcher.MainActivity"
+67-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:32:56-117
+68            android:screenOrientation="portrait"
+68-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:32:19-55
+69            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+69-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:32:118-185
+70        <activity
+70-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:33:9-201
+71            android:name="com.weiktonplaceint.game.launcher.SettingsActivity"
+71-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:33:56-121
+72            android:screenOrientation="portrait"
+72-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:33:19-55
+73            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+73-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:33:122-189
+74        <activity
+74-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:34:9-198
+75            android:name="com.weiktonplaceint.game.launcher.ForumActivity"
+75-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:34:56-118
+76            android:screenOrientation="portrait"
+76-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:34:19-55
+77            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+77-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:34:119-186
+78        <activity
+78-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:35:9-40:20
+79            android:name="com.weiktonplaceint.game.launcher.SplashActivity"
+79-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:35:89-152
+80            android:label="@string/app_name"
+80-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:35:56-88
+81            android:screenOrientation="portrait"
+81-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:35:19-55
+82            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" >
+82-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:35:153-220
+83            <intent-filter>
+83-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:36:13-39:29
+84                <action android:name="android.intent.action.MAIN" />
+84-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:37:17-68
+84-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:37:25-66
+85
+86                <category android:name="android.intent.category.LAUNCHER" />
+86-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:38:17-76
+86-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:38:27-74
+87            </intent-filter>
+88        </activity>
+89        <activity
+89-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:41:9-374
+90            android:name="com.weiktonplaceint.game.core.GTASA"
+90-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:41:162-212
+91            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+91-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:41:19-96
+92            android:label="@string/app_name"
+92-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:41:97-129
+93            android:launchMode="singleTask"
+93-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:41:130-161
+94            android:screenOrientation="landscape"
+94-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:41:213-250
+95            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+95-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:41:251-318
+96            android:windowSoftInputMode="adjustNothing" />
+96-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:41:319-362
+97        <activity
+97-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:42:9-182
+98            android:name="com.weiktonplaceint.game.GTASA"
+98-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:42:57-102
+99            android:screenOrientation="landscape"
+99-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:42:19-56
+100            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+100-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:42:103-170
+101
+102        <meta-data
+102-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:43:9-75
+103            android:name="android.max_aspect"
+103-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:43:20-53
+104            android:value="2.1" />
+104-->D:\!wkt\! WKT\Исходники\Flame + fix + (brmap++)\java\app\src\main\AndroidManifest.xml:43:54-73
+105
+106        <service android:name="com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService" />
+106-->[com.liulishuo.filedownloader:library:1.7.7] C:\Users\user\.gradle\caches\transforms-2\files-2.1\55897a74546a41ceeb33a3bbf616e510\jetified-library-1.7.7\AndroidManifest.xml:12:9-118
+106-->[com.liulishuo.filedownloader:library:1.7.7] C:\Users\user\.gradle\caches\transforms-2\files-2.1\55897a74546a41ceeb33a3bbf616e510\jetified-library-1.7.7\AndroidManifest.xml:12:18-115
+107        <service
+107-->[com.liulishuo.filedownloader:library:1.7.7] C:\Users\user\.gradle\caches\transforms-2\files-2.1\55897a74546a41ceeb33a3bbf616e510\jetified-library-1.7.7\AndroidManifest.xml:13:9-15:49
+108            android:name="com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService"
+108-->[com.liulishuo.filedownloader:library:1.7.7] C:\Users\user\.gradle\caches\transforms-2\files-2.1\55897a74546a41ceeb33a3bbf616e510\jetified-library-1.7.7\AndroidManifest.xml:14:13-108
+109            android:process=":filedownloader" />
+109-->[com.liulishuo.filedownloader:library:1.7.7] C:\Users\user\.gradle\caches\transforms-2\files-2.1\55897a74546a41ceeb33a3bbf616e510\jetified-library-1.7.7\AndroidManifest.xml:15:13-46
+110    </application>
+111
+112</manifest>

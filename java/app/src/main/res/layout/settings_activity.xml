@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/settings_bg">
+
+    <Button
+        android:id="@+id/btn_reinstall_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/reinstall_launcher" />
+    <Button
+        android:id="@+id/btn_update_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/update_launcher" />
+    <Button
+        android:id="@+id/btn_update_files"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/update_files" />
+    <Button
+        android:id="@+id/btn_reinstall_files"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_marginTop="315dp"
+        android:background="@drawable/reinstall_files" />
+
+    <Switch
+        android:id="@+id/line_in_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="275dp"/>
+    <Switch
+        android:id="@+id/graph_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="475dp"
+        android:layout_marginLeft="275dp"/>
+    <Switch
+        android:id="@+id/fps_lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="275dp"/>
+
+</RelativeLayout>

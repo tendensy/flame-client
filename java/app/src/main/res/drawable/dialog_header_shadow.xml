@@ -1,0 +1,53 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Shadow layers -->
+    <item>
+        <shape>
+            <padding android:bottom="1.8dp" />
+            <solid android:color="#05000000" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <padding android:bottom="1.8dp" />
+            <solid android:color="#05000000" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <padding android:bottom="1.8dp" />
+            <solid android:color="#08000000" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <padding android:bottom="1.8dp" />
+            <solid android:color="#08000000" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <padding android:bottom="1.8dp" />
+            <solid android:color="#0A000000" />
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <padding android:bottom="1.8dp" />
+            <solid android:color="#0A000000" />
+        </shape>
+    </item>
+
+    <!-- Background layer -->
+    <item>
+        <shape>
+            <solid android:color="#FF353535" />
+        </shape>
+    </item>
+
+</layer-list>

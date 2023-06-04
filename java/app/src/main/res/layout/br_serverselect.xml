@@ -1,0 +1,44 @@
+<FrameLayout android:id="@+id/screen_layout" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/choose_server_root_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/mylogo_presentflame"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:visibility="visible"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-25dp">
+
+                <TextView
+                    android:id="@+id/br_ls_progress"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/muller_bold"
+                    android:gravity="center"
+                    android:text="0%"
+                    android:textColor="@android:color/white"
+                    android:textSize="10dp" />
+
+                <com.tuyenmonkey.mkloader.MKLoader
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    app:mk_color="#ffffff"
+                    app:mk_type="FishSpinner" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

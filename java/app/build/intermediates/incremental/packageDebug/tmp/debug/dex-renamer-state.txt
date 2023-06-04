@@ -1,0 +1,4 @@
+#Sun Dec 11 16:45:28 EET 2022
+base.0=D\:\\\!wkt\\\! WKT\\Исходники\\Flame + fix + (brmap++)\\java\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

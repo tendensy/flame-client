@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/dw_root" android:background="@drawable/background_window_red" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="50dp">
+    <FrameLayout android:id="@+id/br_not_fl" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <View android:id="@+id/br_not_view" android:background="@drawable/background_br_notification_red" android:layout_width="18dp" android:layout_height="match_parent"/>
+        <TextView android:textSize="16sp" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@+id/br_not_ruble" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="₽" android:fontFamily="@font/muller_bold"/>
+    </FrameLayout>
+    <FrameLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/br_not_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="6dp"
+                android:fontFamily="@font/muller_regular"
+                android:lineSpacingMultiplier="0.85"
+                android:minWidth="140dp"
+                android:text="etxt"
+                android:textColor="#ffffffff"
+                android:textSize="11sp" />
+            <Button android:textSize="11sp" android:textColor="#ffffffff" android:id="@+id/br_not_button" android:background="@drawable/button_red_square_vector" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:minWidth="50dp" android:minHeight="30dp" android:text="Продолжить" android:textAllCaps="false" android:fontFamily="@font/muller_bold"/>
+        </LinearLayout>
+        <ProgressBar android:layout_gravity="bottom" android:id="@+id/br_not_progress" android:visibility="visible" android:layout_width="match_parent" android:layout_height="5dp" android:progressDrawable="@drawable/background_br_notification_progress" style="?android:attr/progressBarStyleHorizontal"/>
+    </FrameLayout>
+</LinearLayout>
